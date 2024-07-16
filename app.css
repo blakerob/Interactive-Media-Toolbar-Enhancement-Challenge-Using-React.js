@@ -1,0 +1,36 @@
+/*U92725213*/
+
+.App {
+  text-align: center;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+}
+
+.upload-message {
+  color: green;
+  margin-top: 20px;
+}
+
+select, button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
